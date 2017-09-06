@@ -18,12 +18,11 @@ Generation:
 	-note.Note()
 	-measure.Measure()
 	-stream()
-	-getTonality() (not actual name, but very long to write out)
--Uses recursive backtracking to find the next possible note in a sequence. Once there is not possible result for that function call, it backtracks to the last successful call and tries again on a different note until we get to the end.
+	-analysis.discrete.KrumhanslKessler() (algorithm to get keyWeight)
+-Uses recursive backtracking to find the next possible note in a sequence.
+Once there is not possible result for that function call, it backtracks to the last successful call and tries again on a different note until we get to the end.
 -To determine a good note, we check for:
 	-pitch is in correct key
 	-pitch follows last pitch in a valid interval jump
 	-pitch is in a valid cadence progression
 -Uses .show() to display the piece in an musicXML editor (i.e. MuseScore 1.3)
-
-

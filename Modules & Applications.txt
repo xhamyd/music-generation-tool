@@ -1,4 +1,0 @@
-I used the following modules to build, execute, and debug my term project:
-	-Python 2.7.6 (32-bit) #This is an absolute must!!! music21 will not run on 64-bit reliably
-	-music21 1.8.1
-	-MuseScore 1.3 #www.musescore.org
