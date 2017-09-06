@@ -1,0 +1,72 @@
+timesheet.txt
+
+Term Project - David Buzzell
+
+-------------------------------------------------------------
+
+Week 0 (4/7)
+Competitive Analysis ---------------------- 2 	 hours
+Module Determination				        2 	 hours
+Write-up for TP0				            1.5  hours
+
+Week 1 (4/15)
+Code Writing ------------------------------ 6	 hours
+	-drawPiano				                3	 hours
+	-getKeyNotePressed			            3	 hours
+
+Research ---------------------------------- 2.5	 hours
+	-Counterpoint Tutorials			        1.25 hours
+	-Implementing Rules			            1.25 hours
+
+Week 2 (4/22)
+Code Writing ------------------------------ 8	 hours
+	-Fixed blackKeyMargin bug		        1	 hour
+	-testUpperKey				            1	 hour
+	-made piano white, realistic	        0.25 hours
+	-cleaned code (followed style)	        1.75 hours
+	-Fixed key edges bug			        0.5	 hours
+	-createInput				            0.75 hours
+	-Fixed C-centered bug			        0.5	 hours
+	-getKey					                0.25 hours
+	-findHalfCadence			            1	 hour
+	-createHalfCadence			            1.5	 hours
+	-randomMeasure & perfectCadence		    0.5	 hours
+
+Research ---------------------------------- 3.5	 hours
+	-root.destroy() (implemented later)	    0.75 hours
+	-reading music21 documentation		    2.75 hours
+
+Week 3 (5/1)
+Code Writing ------------------------------ 44.5 hours
+	-Implemented restart function		    1	 hour
+	-Allowed user to input rhythms		    3.5	 hours
+	-Enabled a limit to user's input	    1	 hour
+	-Made upper text more explanatory	    0.75 hours
+	-Change text when finished		        0.75 hours
+	-Highlighted rhythm selected		    0.5	 hours	
+	-Created an undo function		        2 	 hours
+	-root.destroy success			        1	 hour
+	-Cleaned code to follow style		    4	 hours
+	-Prevented users from bad inputs	    0.25 hours
+	-Fixed string formatting issues		    0.5	 hours
+	-Parts and streams			            0.25 hours
+	-Change noteLength based on rhythm	    3	 hours
+	-Fixed bug in finalChord		        0.5	 hours
+	-Implemented keyPress change colors	    1	 hour
+	-Fixed createMeasure			        1	 hour
+	-Implementing Backtracking (failed)	    6	 hours
+	-Implementing Backtracking (success)    5.5	 hours
+	-drawHelp				                1	 hour
+	-Fixing various bugs			        6	 hours
+	-Doing the rest of the tp3 writeup	    4    hours
+
+Total Hours: 59.5 hours
+
+References for Research:
+	-http://web.mit.edu/music21/
+	-https://www.youtube.com/watch?v=OTHggyZAot0
+	-http://en.wikipedia.org/wiki/Counterpoint#Considerations_for_all_species
+	-http://www.cs.cmu.edu/~112
+		-events-example0.py
+		-nonResizeableDemo.py
+		-nQueens.py

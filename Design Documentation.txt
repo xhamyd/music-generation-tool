@@ -1,0 +1,29 @@
+Design Documents
+
+This function has two parts: UI and Generation
+
+UI:
+-Use canvas.data to store values
+-Generate key by drawing white rectangles and then black on top if that white key has a sharp
+-Take the user's mouse press and find out what key/rhythm pressed
+-Undo removes the last element added
+-Restart runs init()
+-Help screen describes it all, does not affect input
+-sleeps after all of measure input, then automatically destroys the window
+-Wanted a simple screen so that users know that this program is a tool more than a cool product
+
+Generation:
+-Takes the list, and uses music21's modules to represent it as musicXML data:
+	-pitch.Pitch()
+	-note.Note()
+	-measure.Measure()
+	-stream()
+	-getTonality() (not actual name, but very long to write out)
+-Uses recursive backtracking to find the next possible note in a sequence. Once there is not possible result for that function call, it backtracks to the last successful call and tries again on a different note until we get to the end.
+-To determine a good note, we check for:
+	-pitch is in correct key
+	-pitch follows last pitch in a valid interval jump
+	-pitch is in a valid cadence progression
+-Uses .show() to display the piece in an musicXML editor (i.e. MuseScore 1.3)
+
+
